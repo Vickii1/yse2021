@@ -82,7 +82,7 @@ function getId($id,$con){
         <div id="error">
         <?php
         /*
-         * ⑬SESSIONの「error」にメッセージが設定されているかを判定する。
+         * ⑬SESSIONの「error」にメッセージが設定されているかを判定する
          * 設定されていた場合はif文の中に入る。
          */ 
         if(@$_SESSION["error"]){
@@ -108,7 +108,7 @@ function getId($id,$con){
                 </thead>
                 <?php 
                 /*
-                 * ⑮POSTの「books」から一つずつ値を取り出し、変数に保存する.
+                 * ⑮POSTの「books」から一つずつ値を取り出し、変数に保存する
                  */
                 foreach($_POST['books'] as $book_id/* ⑮の処理を書く */){
                     // ⑯「getId」関数を呼び出し、変数に戻り値を入れる。その際引数に⑮の処理で取得した値と⑥のDBの接続情報を渡す。
