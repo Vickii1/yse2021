@@ -105,7 +105,7 @@ function fetchBooks($ids, $pdo)
 			<div id="error">
 				<?php
 				/*
-		 * ⑬SESSIONの「error」にメッセージが設定されているかを判定する。
+		 * ⑬SESSIONの「error」にメッセージが設定されているかを判定する
 		 * 設定されていた場合はif文の中に入る。
 		 */
 				// if(/* ⑬の処理を書く */){
