@@ -86,7 +86,7 @@ function getId($id,$con){
          * 設定されていた場合はif文の中に入る。
          */ 
         if(@$_SESSION["error"]){
-            //⑭SESSIONの「error」の中身を表示する。
+            //⑭SESSIONの「error」の中身を表示する
             echo $_SESSION["error"];
         }
         ?>
