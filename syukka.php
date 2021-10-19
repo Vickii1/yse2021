@@ -109,7 +109,7 @@ function fetchBooks($ids, $pdo)
 		 * 設定されていた場合はif文の中に入る。
 		 */
 				// if(/* ⑬の処理を書く */){
-				// 	//⑭SESSIONの「error」の中身を表示する。
+				// 	//⑭SESSIONの「error」の中身を表示する
 				// }
 				?>
 			</div>
