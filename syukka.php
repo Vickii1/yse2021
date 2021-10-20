@@ -9,7 +9,7 @@
 数値以外が入力されています：入力された値に数字以外の文字が含まれている
 */
 /*
- * ①session_status()の結果が「PHP_SESSION_NONE」と一致するか判定する。
+ * ①session_status()の結果が「PHP_SESSION_NONE」と一致するか判定する
  * 一致した場合はif文の中に入る。
  */
 if (session_status() === PHP_SESSION_NONE) {
@@ -17,7 +17,7 @@ if (session_status() === PHP_SESSION_NONE) {
 	session_start();
 }
 
-//③SESSIONの「login」フラグがfalseか判定する。「login」フラグがfalseの場合はif文の中に入る。
+//③SESSIONの「login」フラグがfalseか判定する。「login」フラグがfalseの場合はif文の中に入る
 if (empty($_SESSION['login'])){
 	$_SESSION['error2'] = 'ログインしてください';
 	header('Location: login.php');
@@ -105,7 +105,7 @@ function fetchBooks($ids, $pdo)
 			<div id="error">
 				<?php
 				/*
-		 * ⑬SESSIONの「error」にメッセージが設定されているかを判定する.
+		 * ⑬SESSIONの「error」にメッセージが設定されているかを判定する
 		 * 設定されていた場合はif文の中に入る。
 		 */
 				// if(/* ⑬の処理を書く */){
